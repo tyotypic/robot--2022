@@ -20,6 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\robot 2022 main.cpp" />
+    <ClCompile Include="source\robot_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\IGameBoard.h" />
+    <ClInclude Include="include\Move.h" />
+    <ClInclude Include="include\robot_main.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

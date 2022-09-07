@@ -1,20 +1,8 @@
-// robot 2022.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include "robot_main.h"
 
-#include <iostream>
-
-int main()
+// this file exists in this form so that when we link the test project against the object files in this project, we don't get two main() functions.
+// The test project will require its own main() function that launches the tests. We'll simply rename this one object file to exclude it from the test project build.
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello World!\n";
+    return robot::robot_main(argc, argv);
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
