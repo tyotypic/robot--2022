@@ -1,6 +1,7 @@
 #include "robot_main.h"
 #include "Board.h"
 #include "Robot.h"
+#include "DevelopmentInputSource.h"
 #include <iostream>
 #include <memory>
 
@@ -10,7 +11,7 @@ int robot_main(int argc, char* argv[])
 {
 	try
 	{
-		CommandInputSource inputSource {};
+		DevelopmentInputSource inputSource {};
 		Board board {5,5};
 		while (true)
 		{

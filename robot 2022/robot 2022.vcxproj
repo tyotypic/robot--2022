@@ -19,12 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="include\DevelopmentInputSource.cpp" />
     <ClCompile Include="source\robot 2022 main.cpp" />
     <ClCompile Include="source\robot_main.cpp" />
+    <ClCompile Include="source\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Board.h" />
+    <ClInclude Include="include\Command.h" />
+    <ClInclude Include="include\DevelopmentInputSource.h" />
     <ClInclude Include="include\IGameBoard.h" />
+    <ClInclude Include="include\IInputSource.h" />
+    <ClInclude Include="include\IRobot.h" />
+    <ClInclude Include="include\Location.h" />
     <ClInclude Include="include\Move.h" />
+    <ClInclude Include="include\Robot.h" />
     <ClInclude Include="include\robot_main.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
